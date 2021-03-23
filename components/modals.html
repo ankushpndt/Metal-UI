@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modals.css">
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="install.css">
+    <title>Modals</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <a class ="sidebar__logo" href="/components/install.html"><img class="logo" src="/icons/logo.png" alt="">Metal UI</a>
+        <a href="/components/buttons.html">Buttons</a>
+        <a href="/components/alerts.html">Alerts</a>
+        <a href="/components/badges.html">Badges</a>
+        <a href="/components/cards.html">Cards</a>
+        <a href="/components/avatars.html">Avatars</a>
+        <a href="/components/input.html">Inputs</a>
+        <a href="/components/modals.html">Modals</a>
+    </div>
+    <div class="modal__container">
+        <h1>Modal</h1>
+        <p style="padding: 1rem 0;">A modal is a dialog box/popup window that is displayed on top of the current page.
+            It's commonly used for confirmation boxes. Forms should not be put in modals.</p>
+    </div>
+    <div class="modal__wrapper">
+        <div class="modal">
+            <div class="modal__close"><i class="fas fa-times"></i></div>
+            <div class="modal__title">Delete Account ?</div>
+
+            <div class="modal__text">
+                <p>All your data will be wiped.This action cannot be undone.</p>
+            </div>
+
+            <div class="modal__button">
+                <span>
+                    <button>Yes</button>
+                </span>
+                <button>No</button>
+            </div>
+        </div>
+    </div>
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%253Cdiv%2520class%253D%2522modal__close%2522%253Ex%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522modal__title%2522%253EDelete%2520Account%2520%253F%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522modal__text%2522%253E%250A%253Cp%253EAll%2520your%2520data%2520will%2520be%2520wiped.This%2520action%2520cannot%2520be%2520undone.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522modal__button%2522%253E%250A%253Cspan%253E%253Cbutton%253EYes%253C%252Fbutton%253E%253C%252Fspan%253E%250A%253Cbutton%253ENo%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 1000px; height: 389px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%253E%250Aconst%2520cross%2520%253D%2520document.querySelector%28%2522.modal__close%2522%29%253B%250Aconst%2520modal%2520%253D%2520document.querySelector%28%2522.modal%2522%29%253B%250Across.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250Amodal.style.display%2520%253D%2520%27none%27%253B%250A%257D%29%253B%250A%253C%252Fscript%253E"
+  style="width: 1000px; height: 315px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    <script>
+        const cross = document.querySelector(".modal__close");
+        const modal = document.querySelector(".modal");
+
+        cross.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>
