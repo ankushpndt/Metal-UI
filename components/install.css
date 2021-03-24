@@ -1,36 +1,69 @@
-
-.logo{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.15.2/css/all.css');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.logo {
   width: 40px;
   height: 40px;
   margin-right: 0.5rem;
- 
 }
 
-  
-  div.content {
-      
-    margin-left: 300px;
-    padding: 1px 16px;
-    height: 1000px;
-  }
- .sidebar .sidebar__logo {
-   display: flex;
-   align-items: center;
- } 
- 
-.container{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    margin-left: 300px;
+div.content {
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.sidebar {
+  margin: 0;
+  padding: 1rem;
+  width: 300px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sidebar a {
+  display: inline-block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: white;
+  width: 260px;
+  color: black;
+  text-align: center;
+}
+#sidebar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin-left: 300px;
 }
 .intro h1 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
-.heading{
+.heading {
   margin: 1rem 0;
 }
-.info{
+.info {
   padding: 1rem 0;
-  color: rgba(107,114,128,1);
+  color: rgba(107, 114, 128, 1);
 }
