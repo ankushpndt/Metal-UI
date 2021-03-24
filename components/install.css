@@ -20,31 +20,7 @@ div.content {
   padding: 1px 16px;
   height: 1000px;
 }
-.sidebar {
-  margin: 0;
-  padding: 1rem;
-  width: 300px;
-  background-color: black;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.sidebar a {
-  display: inline-block;
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-}
 
-.sidebar a:hover:not(.active) {
-  background-color: white;
-  width: 260px;
-  color: black;
-  text-align: center;
-}
 #sidebar__logo {
   display: flex;
   justify-content: center;

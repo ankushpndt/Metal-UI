@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-yJpxAFV0Ip/w63YkZfDWDTU6re/Oc3ZiVqMa97pi8uPt92y0wzeK3UFM2yQRhEom" crossorigin="anonymous">
-    <link rel="stylesheet" href="alerts.css">
-    <link rel="stylesheet" href="components.css">
-    <link rel="stylesheet" href="install.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-yJpxAFV0Ip/w63YkZfDWDTU6re/Oc3ZiVqMa97pi8uPt92y0wzeK3UFM2yQRhEom"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="alerts.css" />
+    <link rel="stylesheet" href="components.css" />
+    <link rel="stylesheet" href="install.css" />
     <title>Alerts</title>
-</head>
-<body>
-  
+  </head>
+  <body>
     <div class="sidebar">
-      <a class ="sidebar__logo" href="/components/install.html"><img class="logo" src="/icons/logo.png" alt="">Metal UI</a>
+      <a id="sidebar__logo" href="/components/install.html"
+        ><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
+      >
       <a href="/components/buttons.html">Buttons</a>
       <a href="/components/alerts.html">Alerts</a>
       <a href="/components/badges.html">Badges</a>
@@ -24,23 +30,48 @@
     </div>
     <div class="alerts__container">
       <h1>Alerts</h1>
-  <p>Alerts are used to communicate a state that affects a system, feature or page..</p>
+      <p>
+        Alerts are used to communicate a state that affects a system, feature or
+        page..
+      </p>
     </div>
-    
+
     <div class="alerts">
-        <h1>Alert Status</h1>
-        <div class="alert__status">
-            <div class="alert__error"><img class="alert__error__image" src="/icons/error.png" alt=""><p>There was an error processing your request</p></div>
-            <div class="alert__success"><img class="alert__success__image" src="/icons/success.png" alt=""><p>Data uploaded to the server. Fire on!</p></div>
-            <div class="alert__info"><img class="alert__info__image" src="/icons/info.png" alt="info"/><p>Chakra is going live on August 30th. Get ready!</p></div>
-            <div class="alert__warning"><img class="alert__warning__image" src="/icons/warning.png" alt="warning"/><p>Seems your account is about expire, upgrade now</p></div>
+      <h1>Alert Status</h1>
+      <div class="alert__status">
+        <div class="alert__error">
+          <img class="alert__error__image" src="/icons/error.png" alt="" />
+          <p>There was an error processing your request</p>
         </div>
-        
+        <div class="alert__success">
+          <img class="alert__success__image" src="/icons/success.png" alt="" />
+          <p>Data uploaded to the server. Fire on!</p>
+        </div>
+        <div class="alert__info">
+          <img class="alert__info__image" src="/icons/info.png" alt="info" />
+          <p>Chakra is going live on August 30th. Get ready!</p>
+        </div>
+        <div class="alert__warning">
+          <img
+            class="alert__warning__image"
+            src="/icons/warning.png"
+            alt="warning"
+          />
+          <p>Seems your account is about expire, upgrade now</p>
+        </div>
+      </div>
     </div>
     <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert__error%2522%253E%253Cimg%2520src%253D%2522icons%252Ferror.png%2522%2520alt%253D%2522%2522%253E%253Cp%253EThere%2520was%2520an%2520error%2520processing%2520your%2520request%253C%252Fp%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__success%2522%253E%253Cimg%2520src%253D%2522icons%252Fsuccess.png%2522%2520alt%253D%2522%2522%253E%253Cp%253EData%2520uploaded%2520to%2520the%2520server.%2520Fire%2520on%21%253C%252Fp%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__info%2522%253E%253Cimg%2520src%253D%2522icons%252Finfo.png%2522%2520alt%253D%2522info%2522%252F%253E%253Cp%253EChakra%2520is%2520going%2520live%2520on%2520August%252030th.%2520Get%2520ready%21%253C%252Fp%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__warning%2522%253E%253Cimg%2520src%253D%2522%252Ficons%252Fwarning.png%2522%2520alt%253D%2522warning%2522%252F%253E%253Cp%253ESeems%2520your%2520account%2520is%2520about%2520expire%252C%2520upgrade%2520now%253C%252Fp%253E%253C%252Fdiv%253E"
-  style="width: 1024px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-</body>
+      src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert__error%2522%253E%253Cimg%2520src%253D%2522icons%252Ferror.png%2522%2520alt%253D%2522%2522%253E%253Cp%253EThere%2520was%2520an%2520error%2520processing%2520your%2520request%253C%252Fp%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__success%2522%253E%253Cimg%2520src%253D%2522icons%252Fsuccess.png%2522%2520alt%253D%2522%2522%253E%253Cp%253EData%2520uploaded%2520to%2520the%2520server.%2520Fire%2520on%21%253C%252Fp%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__info%2522%253E%253Cimg%2520src%253D%2522icons%252Finfo.png%2522%2520alt%253D%2522info%2522%252F%253E%253Cp%253EChakra%2520is%2520going%2520live%2520on%2520August%252030th.%2520Get%2520ready%21%253C%252Fp%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__warning%2522%253E%253Cimg%2520src%253D%2522%252Ficons%252Fwarning.png%2522%2520alt%253D%2522warning%2522%252F%253E%253Cp%253ESeems%2520your%2520account%2520is%2520about%2520expire%252C%2520upgrade%2520now%253C%252Fp%253E%253C%252Fdiv%253E"
+      style="
+        width: 1024px;
+        height: 334px;
+        border: 0;
+        transform: scale(1);
+        overflow: hidden;
+      "
+      sandbox="allow-scripts allow-same-origin"
+    >
+    </iframe>
+  </body>
 </html>
