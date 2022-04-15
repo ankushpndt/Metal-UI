@@ -1,75 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="install.css" />
-    <link
-      rel="stylesheet"
-      href="https://metal-ui.netlify.app/components/components.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css"
-      integrity="sha384-yJpxAFV0Ip/w63YkZfDWDTU6re/Oc3ZiVqMa97pi8uPt92y0wzeK3UFM2yQRhEom"
-      crossorigin="anonymous"
-    />
-    <title>Component Library</title>
-  </head>
-  <body>
-    <div class="sidebar">
-      <a class="sidebar__logo" href="/components/install.html"
-        ><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
-      >
-      <a href="/components/buttons.html">Buttons</a>
-      <a href="/components/alerts.html">Alerts</a>
-      <a href="/components/badges.html">Badges</a>
-      <a href="/components/cards.html">Cards</a>
-      <a href="/components/avatars.html">Avatars</a>
-      <a href="/components/input.html">Inputs</a>
-      <a href="/components/modals.html">Modals</a>
-      <a href="/components/navbar.html">Navbar</a>
-      <a href="/components/typography.html">Typography</a>
-      <a href="/components/responsive_images.html">Image</a>
-      <a href="/components/lists.html">Lists</a>
-      <a href="/components/grids.html">Grid</a>
-    </div>
-    <div class="container">
-      <div class="intro">
-        <h1>Metal UI</h1>
-        <p class="info">
-          Learn how to easily start using Metal UI in your website.
-        </p>
-      </div>
-      <hr />
-      <h3 class="heading">CSS</h3>
-      <p class="info">
-        CSS Copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt; before
-        all other stylesheets to load our CSS.
-      </p>
-      <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fmetal-ui.netlify.app%252Fcomponents%252Fcomponents.css%2522%253E"
-        style="
-          width: 1000px;
-          height: 120px;
-          border: 0;
-          transform: scale(1);
-          overflow: hidden;
-          margin: 2rem 0;
-          margin-left: 150px;
-        "
-        sandbox="allow-scripts allow-same-origin"
-      >
-      </iframe>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="install.css" />
+		<link rel="stylesheet" href="components.css" />
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css"
+			integrity="sha384-yJpxAFV0Ip/w63YkZfDWDTU6re/Oc3ZiVqMa97pi8uPt92y0wzeK3UFM2yQRhEom"
+			crossorigin="anonymous"
+		/>
+		<title>Component Library</title>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="sidebar__btn">
+				<a class="sidebar__logo" href="/components/install.html"
+					><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
+				>
+				<button class="hamburger" id="hamburger">
+					<span style="color: white">&#9776;</span>
+				</button>
+			</div>
+			<div id="nav-ul">
+				<a class="nav-li" href="/components/buttons.html">Buttons</a>
+				<a class="nav-li" href="/components/alerts.html">Alerts</a>
+				<a class="nav-li" href="/components/badges.html">Badges</a>
+				<a class="nav-li" href="/components/cards.html">Cards</a>
+				<a class="nav-li" href="/components/avatars.html">Avatars</a>
+				<a class="nav-li" href="/components/input.html">Inputs</a>
+				<a class="nav-li" href="/components/modals.html">Modals</a>
+				<a class="nav-li" href="/components/navbar.html">Navbar</a>
+				<a class="nav-li" href="/components/typography.html">Typography</a>
+				<a class="nav-li" href="/components/responsive_images.html">Image</a>
+				<a class="nav-li" href="/components/lists.html">Lists</a>
+				<a class="nav-li" href="/components/grids.html">Grid</a>
+				<a class="nav-li" href="/components/rating.html">Rating</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="intro">
+				<h1>Metal UI</h1>
+				<p class="info">
+					Learn how to easily start using Metal UI in your website.
+				</p>
+			</div>
+			<hr />
+			<h3 class="heading">CSS</h3>
+			<p class="info">
+				CSS Copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt; before
+				all other stylesheets to load our CSS.
+			</p>
+			<iframe
+				src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fmetal-ui.netlify.app%252Fcomponents%252Fcomponents.css%2522%253E"
+				sandbox="allow-scripts allow-same-origin"
+				class="install__iframe"
+			>
+			</iframe>
 
-      <hr />
-      <!-- <h3 class="heading">JS</h3>
+			<hr />
+			<!-- <h3 class="heading">JS</h3>
       <p class="info">
         Many of our components require the use of JavaScript to function. Place
         one of following &lt;script&gt;s near the end of your pages, right
         before the closing &lt;/body&gt; tag, to enable them.
       </p> -->
-    </div>
-  </body>
+		</div>
+	</body>
 </html>

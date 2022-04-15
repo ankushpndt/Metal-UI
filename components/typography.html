@@ -1,65 +1,67 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="components.css" />
-    <link rel="stylesheet" href="install.css" />
-    <title>Typography</title>
-  </head>
-  <body>
-    <div class="sidebar">
-      <a class="sidebar__logo" href="/components/install.html"
-        ><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
-      >
-      <a href="/components/buttons.html">Buttons</a>
-      <a href="/components/alerts.html">Alerts</a>
-      <a href="/components/badges.html">Badges</a>
-      <a href="/components/cards.html">Cards</a>
-      <a href="/components/avatars.html">Avatars</a>
-      <a href="/components/input.html">Inputs</a>
-      <a href="/components/modals.html">Modals</a>
-      <a href="/components/navbar.html">Navbar</a>
-      <a href="/components/typography.html">Typography</a>
-      <a href="/components/responsive_images.html">Image</a>
-      <a href="/components/lists.html">Lists</a>
-      <a href="/components/grids.html">Grid</a>
-    </div>
-    <div class="typo__container">
-      <h1>Typography</h1>
-      <div>
-        <p>Here are the different typographys that have classes</p>
-        <div class="headings">
-          <h1>This is a Heading 1</h1>
-          <h2>This is a Heading 2</h2>
-          <h3>This is a Heading 3</h3>
-          <h4>This is a Heading 4</h4>
-          <h5>This is a Heading 5</h5>
-          <h6>This is a Heading 6</h6>
-        </div>
-        <div class="text">
-          <small>This is a small text</small>
-        </div>
-        <div class="text">
-          <p class="grey__text">This is a grey text</p>
-        </div>
-        <div class="text">
-          <p class="centered__text">This is a centered Text</p>
-        </div>
-      </div>
-      <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ch1%253EThis%2520is%2520a%2520Heading%25201%253C%252Fh1%253E%250A%2520%253Ch2%253EThis%2520is%2520a%2520Heading%25202%253C%252Fh2%253E%250A%2520%253Ch3%253EThis%2520is%2520a%2520Heading%25203%253C%252Fh3%253E%250A%2520%253Ch4%253EThis%2520is%2520a%2520Heading%25204%253C%252Fh4%253E%250A%2520%253Ch5%253EThis%2520is%2520a%2520Heading%25205%253C%252Fh5%253E%250A%2520%253Ch6%253EThis%2520is%2520a%2520Heading%25206%253C%252Fh6%253E%250A%2520%253Csmall%253EThis%2520is%2520a%2520small%2520text%253C%252Fsmall%253E%250A%2520%253Cp%2520class%253D%2522gray-text%2522%253EThis%2520is%2520a%2520gray%2520text%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522center-text%2522%253EThis%2520is%2520a%2520centered%2520text%253C%252Fp%253E"
-        style="
-          width: 900px;
-          height: 352px;
-          border: 0;
-          transform: scale(1);
-          overflow: hidden;
-        "
-        sandbox="allow-scripts allow-same-origin"
-      >
-      </iframe>
-    </div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="components.css" />
+		<link rel="stylesheet" href="install.css" />
+		<title>Typography</title>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="sidebar__btn">
+				<a class="sidebar__logo" href="/components/install.html"
+					><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
+				>
+				<button class="hamburger" id="hamburger">
+					<span style="color: white">&#9776;</span>
+				</button>
+			</div>
+			<div id="nav-ul">
+				<a class="nav-li" href="/components/buttons.html">Buttons</a>
+				<a class="nav-li" href="/components/alerts.html">Alerts</a>
+				<a class="nav-li" href="/components/badges.html">Badges</a>
+				<a class="nav-li" href="/components/cards.html">Cards</a>
+				<a class="nav-li" href="/components/avatars.html">Avatars</a>
+				<a class="nav-li" href="/components/input.html">Inputs</a>
+				<a class="nav-li" href="/components/modals.html">Modals</a>
+				<a class="nav-li" href="/components/navbar.html">Navbar</a>
+				<a class="nav-li" href="/components/typography.html">Typography</a>
+				<a class="nav-li" href="/components/responsive_images.html">Image</a>
+				<a class="nav-li" href="/components/lists.html">Lists</a>
+				<a class="nav-li" href="/components/grids.html">Grid</a>
+				<a class="nav-li" href="/components/rating.html">Rating</a>
+			</div>
+		</div>
+		<div class="typo__container">
+			<h1>Typography</h1>
+			<div>
+				<p>Here are the different typographys that have classes</p>
+				<div class="headings">
+					<h1>This is a Heading 1</h1>
+					<h2>This is a Heading 2</h2>
+					<h3>This is a Heading 3</h3>
+					<h4>This is a Heading 4</h4>
+					<h5>This is a Heading 5</h5>
+					<h6>This is a Heading 6</h6>
+				</div>
+				<div class="text">
+					<small>This is a small text</small>
+				</div>
+				<div class="text">
+					<p class="grey__text">This is a grey text</p>
+				</div>
+				<div class="text">
+					<p class="centered__text">This is a centered Text</p>
+				</div>
+			</div>
+			<iframe
+				src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ch1%253EThis%2520is%2520a%2520Heading%25201%253C%252Fh1%253E%250A%2520%253Ch2%253EThis%2520is%2520a%2520Heading%25202%253C%252Fh2%253E%250A%2520%253Ch3%253EThis%2520is%2520a%2520Heading%25203%253C%252Fh3%253E%250A%2520%253Ch4%253EThis%2520is%2520a%2520Heading%25204%253C%252Fh4%253E%250A%2520%253Ch5%253EThis%2520is%2520a%2520Heading%25205%253C%252Fh5%253E%250A%2520%253Ch6%253EThis%2520is%2520a%2520Heading%25206%253C%252Fh6%253E%250A%2520%253Csmall%253EThis%2520is%2520a%2520small%2520text%253C%252Fsmall%253E%250A%2520%253Cp%2520class%253D%2522gray-text%2522%253EThis%2520is%2520a%2520gray%2520text%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522center-text%2522%253EThis%2520is%2520a%2520centered%2520text%253C%252Fp%253E"
+				class="typo__iframe"
+				sandbox="allow-scripts allow-same-origin"
+			>
+			</iframe>
+			<script src="../script.js"></script>
+		</div>
+	</body>
 </html>

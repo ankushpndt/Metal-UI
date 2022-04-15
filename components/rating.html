@@ -1,75 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://metal-ui.netlify.app/components/components.css"
-    />
-    <link rel="stylesheet" href="install.css" />
-    <title>Rating</title>
-  </head>
-  <body>
-    <div class="sidebar">
-      <a class="sidebar__logo" href="/components/install.html">
-        <img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
-      >
-      <a href="/components/buttons.html">Buttons</a>
-      <a href="/components/alerts.html">Alerts</a>
-      <a href="/components/badges.html">Badges</a>
-      <a href="/components/cards.html">Cards</a>
-      <a href="/components/avatars.html">Avatars</a>
-      <a href="/components/input.html">Inputs</a>
-      <a href="/components/modals.html">Modals</a>
-      <a href="/components/navbar.html">Navbar</a>
-      <a href="/components/typography.html">Typography</a>
-      <a href="/components/responsive_images.html">Image</a>
-      <a href="/components/lists.html">Lists</a>
-      <a href="/components/grids.html">Grid</a>
-    </div>
-    <div class="wrapper">
-      <h1>Ratings</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="components.css" />
+		<link rel="stylesheet" href="install.css" />
+		<title>Rating</title>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="sidebar__btn">
+				<a class="sidebar__logo" href="/components/install.html"
+					><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
+				>
+				<button class="hamburger" id="hamburger">
+					<span style="color: white">&#9776;</span>
+				</button>
+			</div>
+			<div id="nav-ul">
+				<a class="nav-li" href="/components/buttons.html">Buttons</a>
+				<a class="nav-li" href="/components/alerts.html">Alerts</a>
+				<a class="nav-li" href="/components/badges.html">Badges</a>
+				<a class="nav-li" href="/components/cards.html">Cards</a>
+				<a class="nav-li" href="/components/avatars.html">Avatars</a>
+				<a class="nav-li" href="/components/input.html">Inputs</a>
+				<a class="nav-li" href="/components/modals.html">Modals</a>
+				<a class="nav-li" href="/components/navbar.html">Navbar</a>
+				<a class="nav-li" href="/components/typography.html">Typography</a>
+				<a class="nav-li" href="/components/responsive_images.html">Image</a>
+				<a class="nav-li" href="/components/lists.html">Lists</a>
+				<a class="nav-li" href="/components/grids.html">Grid</a>
+				<a class="nav-li" href="/components/rating.html">Rating</a>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h1>Ratings</h1>
 
-      <div class="rating__container">
-        <div class="star__rating">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="far fa-star"></i>
-        </div>
-        <div class="rating">
-          <div class="rating__high">
-            <span>4.6</span>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="rating__medium">
-            <span>3.3</span>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="rating__low">
-            <span>1.5</span>
-            <i class="fas fa-star"></i>
-          </div>
-        </div>
-      </div>
-      <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522rating__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star__rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating__high%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E4.6%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating__medium%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E3.3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating__low%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E1.5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-        style="
-          width: 900px;
-          height: 610px;
-          border: 0;
-          transform: scale(1);
-          overflow: hidden;
-
-          margin: 2rem 0;
-          margin-left: 150px;
-        "
-        sandbox="allow-scripts allow-same-origin"
-      >
-      </iframe>
-    </div>
-  </body>
+			<div class="rating__container">
+				<div class="star__rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<div class="rating">
+					<div class="rating__high">
+						<span>4.6</span>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="rating__medium">
+						<span>3.3</span>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="rating__low">
+						<span>1.5</span>
+						<i class="fas fa-star"></i>
+					</div>
+				</div>
+			</div>
+			<iframe
+				src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522rating__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star__rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating__high%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E4.6%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating__medium%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E3.3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating__low%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E1.5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+				class="rating__iframe"
+				sandbox="allow-scripts allow-same-origin"
+			>
+			</iframe>
+		</div>
+		<script src="../script.js"></script>
+	</body>
 </html>

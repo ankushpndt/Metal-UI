@@ -1,84 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="avatars.css" />
-    <link rel="stylesheet" href="components.css" />
-    <link rel="stylesheet" href="install.css" />
-    <title>Avatars</title>
-  </head>
-  <body>
-    <div class="sidebar">
-      <a class="sidebar__logo" href="/components/install.html"
-        ><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
-      >
-      <a href="/components/buttons.html">Buttons</a>
-      <a href="/components/alerts.html">Alerts</a>
-      <a href="/components/badges.html">Badges</a>
-      <a href="/components/cards.html">Cards</a>
-      <a href="/components/avatars.html">Avatars</a>
-      <a href="/components/input.html">Inputs</a>
-      <a href="/components/modals.html">Modals</a>
-      <a href="/components/navbar.html">Navbar</a>
-      <a href="/components/typography.html">Typography</a>
-      <a href="/components/responsive_images.html">Image</a>
-      <a href="/components/lists.html">Lists</a>
-      <a href="/components/grids.html">Grid</a>
-    </div>
-    <div class="avatar__container">
-      <h1>Avatars</h1>
-      <p>
-        In computing, an avatar (also known as a profile picture or userpic) is
-        a graphical representation of a user or the user's character or persona.
-      </p>
-    </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="components.css" />
+		<link rel="stylesheet" href="install.css" />
+		<title>Avatars</title>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="sidebar__btn">
+				<a class="sidebar__logo" href="/components/install.html"
+					><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
+				>
+				<button class="hamburger" id="hamburger">
+					<span style="color: white">&#9776;</span>
+				</button>
+			</div>
+			<div id="nav-ul">
+				<a class="nav-li" href="/components/buttons.html">Buttons</a>
+				<a class="nav-li" href="/components/alerts.html">Alerts</a>
+				<a class="nav-li" href="/components/badges.html">Badges</a>
+				<a class="nav-li" href="/components/cards.html">Cards</a>
+				<a class="nav-li" href="/components/avatars.html">Avatars</a>
+				<a class="nav-li" href="/components/input.html">Inputs</a>
+				<a class="nav-li" href="/components/modals.html">Modals</a>
+				<a class="nav-li" href="/components/navbar.html">Navbar</a>
+				<a class="nav-li" href="/components/typography.html">Typography</a>
+				<a class="nav-li" href="/components/responsive_images.html">Image</a>
+				<a class="nav-li" href="/components/lists.html">Lists</a>
+				<a class="nav-li" href="/components/grids.html">Grid</a>
+				<a class="nav-li" href="/components/rating.html">Rating</a>
+			</div>
+		</div>
+		<div class="avatar__container">
+			<h1>Avatars</h1>
+			<p>
+				In computing, an avatar (also known as a profile picture or userpic) is
+				a graphical representation of a user or the user's character or persona.
+			</p>
 
-    <div class="avatar">
-      <div class="avatar__sm">
-        <img class="avatar__sm__img" src="/icons/avatar.jpg" alt="" />
-      </div>
-      <div class="avatar__md">
-        <img class="avatar__md__img" src="/icons/avatar.jpg" alt="" />
-      </div>
-      <div class="avatar__lg">
-        <img class="avatar__lg__img" src="/icons/avatar.jpg" alt="" />
-      </div>
-    </div>
-    <iframe
-      src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%253Cdiv%2520class%253D%2522avatar__sm%2522%253E%253Cimg%2520class%253D%2522avatar__sm__img%2522src%253D%2522%252Ficons%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar__md%2522%253E%253Cimg%2520class%253D%2522avatar__md__img%2522src%253D%2522%252Ficons%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar__lg%2522%253E%253Cimg%2520class%253D%2522avatar__lg__img%2522src%253D%2522%252Ficons%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-      style="
-        width: 900px;
-        height: 333px;
-        border: 0;
-        transform: scale(1);
-        overflow: hidden;
-      "
-      sandbox="allow-scripts allow-same-origin"
-    >
-    </iframe>
-    <div class="avatar__noti__container">
-      <div class="avatar__noti">
-        <img class="avatar__noti__image__sm" src="/icons/avatar.jpg" alt="" />
-        <span class="avatar__noti__status__sm"></span>
-        <img class="avatar__noti__image__md" src="/icons/avatar.jpg" alt="" />
-        <span class="avatar__noti__status__md"></span>
-        <img class="avatar__noti__image__lg" src="/icons/avatar.jpg" alt="" />
-        <span class="avatar__noti__status__lg"></span>
-      </div>
-    </div>
-    <iframe
-      src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27avatar__noti%27%253E%250A%253Cimg%2520class%253D%27avatar__noti__image%27%2520src%253D%27%252Ficons%252Favatar.jpg%27%2520alt%253D%27%27%253E%250A%253Cspan%2520class%253D%27avatar__noti__status%27%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-      style="
-        width: 900px;
-        height: 260px;
-        border: 0;
-        transform: scale(1);
-        overflow: hidden;
-      "
-      sandbox="allow-scripts allow-same-origin"
-    >
-    </iframe>
-  </body>
+			<div class="avatar">
+				<div class="avatar__sm">
+					<img class="avatar__sm__img" src="/icons/avatar.jpg" alt="" />
+				</div>
+				<div class="avatar__md">
+					<img class="avatar__md__img" src="/icons/avatar.jpg" alt="" />
+				</div>
+				<div class="avatar__lg">
+					<img class="avatar__lg__img" src="/icons/avatar.jpg" alt="" />
+				</div>
+			</div>
+
+			<iframe
+				src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%253Cdiv%2520class%253D%2522avatar__sm%2522%253E%253Cimg%2520class%253D%2522avatar__sm__img%2522src%253D%2522%252Ficons%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar__md%2522%253E%253Cimg%2520class%253D%2522avatar__md__img%2522src%253D%2522%252Ficons%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar__lg%2522%253E%253Cimg%2520class%253D%2522avatar__lg__img%2522src%253D%2522%252Ficons%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+				sandbox="allow-scripts allow-same-origin"
+				class="avatar__iframe"
+			>
+			</iframe>
+
+			<div class="avatar__noti__container">
+				<div class="avatar__noti">
+					<img class="avatar__noti__image__sm" src="/icons/avatar.jpg" alt="" />
+					<span class="avatar__noti__status__sm"></span>
+					<img class="avatar__noti__image__md" src="/icons/avatar.jpg" alt="" />
+					<span class="avatar__noti__status__md"></span>
+					<img class="avatar__noti__image__lg" src="/icons/avatar.jpg" alt="" />
+					<span class="avatar__noti__status__lg"></span>
+				</div>
+
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27avatar__noti%27%253E%250A%253Cimg%2520class%253D%27avatar__noti__image%27%2520src%253D%27%252Ficons%252Favatar.jpg%27%2520alt%253D%27%27%253E%250A%253Cspan%2520class%253D%27avatar__noti__status%27%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+					sandbox="allow-scripts allow-same-origin"
+					class="avatar__noti__iframe"
+				>
+				</iframe>
+			</div>
+		</div>
+		<script src="../script.js"></script>
+	</body>
 </html>
