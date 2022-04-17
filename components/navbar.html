@@ -1,69 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="components.css" />
-    <link rel="stylesheet" href="install.css" />
-    <title>Navbar</title>
-  </head>
-  <body>
-    <div class="sidebar">
-      <a class="sidebar__logo" href="/components/install.html"
-        ><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
-      >
-      <a href="/components/buttons.html">Buttons</a>
-      <a href="/components/alerts.html">Alerts</a>
-      <a href="/components/badges.html">Badges</a>
-      <a href="/components/cards.html">Cards</a>
-      <a href="/components/avatars.html">Avatars</a>
-      <a href="/components/input.html">Inputs</a>
-      <a href="/components/modals.html">Modals</a>
-      <a href="/components/navbar.html">Navbar</a>
-      <a href="/components/typography.html">Typography</a>
-      <a href="/components/responsive_images.html">Image</a>
-      <a href="/components/lists.html">Lists</a>
-      <a href="/components/grids.html">Grid</a>
-    </div>
-    <div class="navbar__container">
-      <h1>Navbar</h1>
-      <div class="navbar">
-        <ul class="links">
-          <li class="link__pills"><a href="">HOME</a></li>
-          <li class="link__pills"><a href="">TAG</a></li>
-          <li class="link__pills"><a href="">AUTHOR</a></li>
-          <li class="link__pills"><a href="">HELP</a></li>
-        </ul>
-        <ul>
-          <li class="link__pills">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-          </li>
-          <li class="link__pills">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li class="link__pills">
-            <a href="#!"><i class="fas fa-moon"></i></a>
-          </li>
-          <li class="link__pills">
-            <a href="#" class="button__sub">Subscribe</a>
-          </li>
-        </ul>
-      </div>
-      <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%253Ca%2520href%253D%2522%2522%253EHOME%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%253Ca%2520href%253D%2522%2522%253ETAG%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%253Ca%2520href%253D%2522%2522%253EAUTHOR%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%253Ca%2520href%253D%2522%2522%253EHELP%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-facebook%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-twitter%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%21%2522%253E%253Ci%2520class%253D%2522fas%2520fa-moon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button__sub%2522%253ESubscribe%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-        style="
-          width: 900px;
-          height: 591px;
-          border: 0;
-          transform: scale(1);
-          overflow: hidden;
-          margin-top: 2rem;
-          margin-left: 150px;
-        "
-        sandbox="allow-scripts allow-same-origin"
-      >
-      </iframe>
-    </div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="components.css" />
+		<link rel="stylesheet" href="install.css" />
+		<title>Navbar</title>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="sidebar__btn">
+				<a class="sidebar__logo" href="/components/install.html"
+					><img class="logo" src="/icons/logo.png" alt="" />Metal UI</a
+				>
+				<button class="hamburger" id="hamburger">
+					<span style="color: white">&#9776;</span>
+				</button>
+			</div>
+			<div id="nav-ul">
+				<a href="/components/install.html" class="nav-li">Get Started</a>
+				<a class="nav-li" href="/components/buttons.html">Buttons</a>
+				<a class="nav-li" href="/components/alerts.html">Alerts</a>
+				<a class="nav-li" href="/components/badges.html">Badges</a>
+				<a class="nav-li" href="/components/cards.html">Cards</a>
+				<a class="nav-li" href="/components/avatars.html">Avatars</a>
+				<a class="nav-li" href="/components/input.html">Inputs</a>
+				<a class="nav-li" href="/components/modals.html">Modals</a>
+				<a class="nav-li" href="/components/navbar.html">Navbar</a>
+				<a class="nav-li" href="/components/typography.html">Typography</a>
+				<a class="nav-li" href="/components/responsive_images.html">Image</a>
+				<a class="nav-li" href="/components/lists.html">Lists</a>
+				<a class="nav-li" href="/components/grids.html">Grid</a>
+				<a class="nav-li" href="/components/rating.html">Rating</a>
+			</div>
+		</div>
+		<div class="navbar__container">
+			<h1 style="padding-bottom: 1rem">Navbar</h1>
+			<div class="navbar">
+				<button class="hammenu" id="hammenu">
+					<span style="color: white">&#9776;</span>
+				</button>
+				<div id="nav__links">
+					<ul class="links">
+						<li class="link__pills"><a href="">HOME</a></li>
+						<li class="link__pills"><a href="">TAG</a></li>
+						<li class="link__pills"><a href="">AUTHOR</a></li>
+						<li class="link__pills"><a href="">HELP</a></li>
+					</ul>
+					<ul class="links__btn">
+						<li class="link__pills">
+							<a href="#"
+								><i class="fab fa-facebook" style="margin-right: 0"></i
+							></a>
+						</li>
+						<li class="link__pills">
+							<a href="#"
+								><i class="fab fa-twitter" style="margin-right: 0"></i
+							></a>
+						</li>
+						<li class="link__pills">
+							<a href="#!"
+								><i class="fas fa-moon" style="margin-right: 0"></i
+							></a>
+						</li>
+						<li class="link__pills">
+							<a href="#" class="button__sub">Subscribe</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<iframe
+				src="https://carbon.now.sh/embed?bg=transparent&t=one-dark&wt=none&l=text%2Fx-csrc&width=333.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522links%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EHOME%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253ETAG%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EAUTHOR%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EHELP%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-facebook%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-twitter%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%21%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-moon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522link__pills%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522button__sub%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Subscribe%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A"
+				style="
+					width: 100%;
+
+					border: 0;
+					transform: scale(1);
+					overflow: hidden;
+				"
+				class="navbar__iframe"
+				sandbox="allow-scripts allow-same-origin"
+			>
+			</iframe>
+		</div>
+		<script src="../script.js"></script>
+		<script>
+			const nav__links = document.getElementById("nav__links");
+			const hammenu__btn = document.getElementById("hammenu");
+			hammenu__btn.addEventListener("click", () => {
+				nav__links.classList.toggle("show");
+			});
+		</script>
+	</body>
 </html>
