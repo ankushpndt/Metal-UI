@@ -56,6 +56,12 @@ div.content {
 	.container {
 		margin-left: 0;
 		max-width: 650px;
+		align-items: center;
+	}
+	.intro {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
 	}
 	.install__iframe {
 		height: 117px;
