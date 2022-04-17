@@ -4,10 +4,10 @@ Metal UI is a component library that is developed to import components for the p
 * Easily customizable
 * Highly scalable
 
-##Application Links
+## Application Links
 [Metal UI] (https://metal-ui.netlify.app/ "Metal UI home")
 
-##Components
+## Components
 * Alerts
 * Avatars
 * Badges
