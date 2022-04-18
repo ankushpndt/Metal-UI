@@ -865,7 +865,7 @@ body {
 
 /*typography*/
 .typo__iframe {
-	height: 220px;
+	height: 240px;
 }
 .typo__container {
 	margin-left: 300px;
@@ -1165,7 +1165,7 @@ body {
 		width: 100%;
 	}
 	.alerts__iframe {
-		height: 466px;
+		height: 535px;
 	}
 	.alerts__container {
 		margin-left: 0;
@@ -1304,6 +1304,9 @@ body {
 	.typo__container {
 		margin-left: 0;
 		padding: 1rem 0.5rem;
+	}
+	.typo__iframe {
+		height: 280px;
 	}
 	.grid__container {
 		margin-left: 0;

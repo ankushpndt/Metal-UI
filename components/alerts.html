@@ -52,33 +52,34 @@
 				<h1>Alert Status</h1>
 				<div class="alert__status">
 					<div class="alert__error">
-						<img class="alert__error__image" src="/icons/error.png" alt="" />
+						<i class="fa fa-exclamation-triangle" style="color: red"></i>
 						<p>There was an error processing your request</p>
 					</div>
 					<div class="alert__success">
-						<img
-							class="alert__success__image"
-							src="/icons/success.png"
-							alt=""
-						/>
+						<i class="fa fa-check-circle" style="color: green"></i>
 						<p>Data uploaded to the server. Fire on!</p>
 					</div>
 					<div class="alert__info">
-						<img class="alert__info__image" src="/icons/info.png" alt="info" />
+						<i class="far fa-info-circle" style="color: blue"></i>
 						<p>Chakra is going live on August 30th. Get ready!</p>
 					</div>
 					<div class="alert__warning">
-						<img
-							class="alert__warning__image"
-							src="/icons/warning.png"
-							alt="warning"
-						/>
+						<i
+							class="fa fa-exclamation-circle"
+							style="color: rgb(227, 156, 23)"
+						></i>
 						<p>Seems your account is about expire, upgrade now</p>
 					</div>
 				</div>
 			</div>
-
 			<iframe
+				src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=text%2Fx-csrc&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert__error%2522%253E%250A%2520%253Ci%2520class%253D%2522fa%2520fa-exclamation-triangle%2522%2520style%253D%2522color%253A%2520red%2522%253E%253C%252Fi%253E%250A%2520%253Cp%253EThere%2520was%2520an%2520error%2520processing%2520your%2520request%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__success%2522%253E%250A%2520%253Ci%2520class%253D%2522fa%2520fa-check-circle%2522%2520style%253D%2522color%253A%2520green%2522%253E%253C%252Fi%253E%250A%2520%253Cp%253EData%2520uploaded%2520to%2520the%2520server.%2520Fire%2520on%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__info%2522%253E%250A%2520%253Ci%2520class%253D%2522far%2520fa-info-circle%2522%2520style%253D%2522color%253A%2520blue%2522%253E%253C%252Fi%253E%250A%2520%253Cp%253EChakra%2520is%2520going%2520live%2520on%2520August%252030th.%2520Get%2520ready%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__warning%2522%253E%250A%2520%253Ci%2520class%253D%2522fa%2520fa-exclamation-circle%2522%2520style%253D%2522color%253A%2520rgb%28227%252C%2520156%252C%252023%29%2522%253E%250A%2520%253C%252Fi%253E%250A%2520%253Cp%253ESeems%2520your%2520account%2520is%2520about%2520expire%252C%2520upgrade%2520now%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+				style="width: 100%; border: 0; transform: scale(1); overflow: hidden"
+				class="alerts__iframe"
+				sandbox="allow-scripts allow-same-origin"
+			>
+			</iframe>
+			<!-- <iframe
 				src="https://carbon.now.sh/embed?bg=transparent&t=one-dark&wt=none&l=text%2Fx-csrc&width=333.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert__error%2522%253E%250A%2509%253Cimg%2520src%253D%2522icons%252Ferror.png%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cp%253EThere%2520was%2520an%2520error%2520processing%2520your%2520request%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__success%2522%253E%250A%2509%253Cimg%2520src%253D%2522icons%252Fsuccess.png%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cp%253EData%2520uploaded%2520to%2520the%2520server.%2520Fire%2520on%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__info%2522%253E%250A%2509%253Cimg%2520src%253D%2522icons%252Finfo.png%2522%2520alt%253D%2522info%2522%252F%253E%250A%2509%253Cp%253EChakra%2520is%2520going%2520live%2520on%2520August%252030th.%2520Get%2520ready%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert__warning%2522%253E%250A%2509%253Cimg%2520src%253D%2522%252Ficons%252Fwarning.png%2522%2520alt%253D%2522warning%2522%252F%253E%250A%2509%253Cp%253ESeems%2520your%2520account%2520is%2520about%2520expire%252C%2520upgrade%2520now%253C%252Fp%253E%250A%253C%252Fdiv%253E"
 				style="
 					width: 100%;
@@ -90,7 +91,7 @@
 				class="alerts__iframe"
 				sandbox="allow-scripts allow-same-origin"
 			>
-			</iframe>
+			</iframe> -->
 		</div>
 		<script src="../script.js"></script>
 	</body>
