@@ -18,5 +18,5 @@ Metal UI is a component library that is developed to import components for the p
 * Modal
 * Navbar
 * Responsive Grid
-* Responsie image
+* Responsive image
 * Typography
